@@ -1,0 +1,134 @@
+body
+{
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    
+}
+
+#cabezera
+
+{
+  background-color: coral;  
+}
+
+#cabezera h1
+{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav
+{
+    background-color: orange;
+
+}
+
+nav ul
+{
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+        margin: 0px;
+}
+
+
+
+nav ul li 
+{
+  display: inline ;
+}
+
+nav ul li a
+{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block   ;
+    
+}
+
+nav ul li a:hover
+{
+    color: black;
+}
+
+
+#cont-ima 
+{
+    background-image: url('Imagenes/ima3.jpg');
+    height: 280px;
+    background-position: center;
+    margin-bottom: 30px;
+    
+}   
+
+#cont-ima .ima h1
+{
+ color: black;
+ text-align: center;
+ font-size: 30px;
+padding-top: 25px;
+margin: 0px;
+}  
+
+.contenedor
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#cp
+
+{
+    float: left;
+    width: 70%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+#barra-lat
+{
+    float: right;
+    width: 30%;
+    background-color: darkcyan;
+    color:white;
+    padding: 10px;
+    box-sizing:border-box;
+
+}
+
+#parte-inf
+{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-top: 50px;   
+    text-align: center;
+    font-size: 40x; 
+}
+
+@media(max-widht:650px)
+{
+#cp
+{
+width: 100%;
+float: none;
+}
+
+#barra-lat
+{
+width: 100%;
+float: none;
+}
+
+
+
+}
